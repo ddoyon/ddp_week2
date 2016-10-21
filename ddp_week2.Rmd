@@ -1,0 +1,15 @@
+---
+title: "Developing Data Products: Week 2 Course Project"
+date: October 21, 2016
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE)
+```
+
+```{r}
+source("ddp_week2.R")
+suppressWarnings(ddp_week2(as.numeric(geocode("1000 steps beach, Santa Barbara, CA")), "My Favorite Beach in Santa Barbra"))
+```
+
